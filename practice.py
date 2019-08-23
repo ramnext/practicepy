@@ -1,4 +1,4 @@
-# content of test_sample.py
+# content of practice.py
 def func(x):
     return x + 1
 
