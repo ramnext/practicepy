@@ -8,4 +8,4 @@ while True:
     a=input(qs[n])
     if a == 'q':
         break
-    n = (n + 1) % qs.__len__()
+    n = (n + 1) % len(qs)
