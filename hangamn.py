@@ -37,7 +37,7 @@ def hangman(answers):
             win = True
             break
     if not win:
-       print("\n".join(stages))
-       print(f"あなたの負け！正解は{word}.")
+        print("\n".join(stages))
+        print(f"あなたの負け！正解は{word}.")
 
 hangman(answers)
